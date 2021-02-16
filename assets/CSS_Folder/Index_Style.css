@@ -1,0 +1,48 @@
+/*TODO: import css files*/
+@import "header_style.css";
+@import "index_body_style.css";
+@import "footer_style.css";
+
+/*TODO: Media Queries*/
+
+@media (max-width: 750px) {
+  .shape-container .squer {
+    width: 100%;
+    margin: 0rem;
+  }
+  .top-container {
+    grid-template-areas:
+      "img-container"
+      "header-container";
+  }
+  .squer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .img-container img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .cards-container {
+    grid-gap: 0.5rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .top-container {
+    grid-template-areas:
+      "img-container"
+      "header-container";
+  }
+  .squer {
+    margin-left: 1rem;
+    margin-right: 5rem;
+  }
+
+  .img-container img {
+    margin-left: 1rem;
+    margin-right: 5rem;
+  }
+}

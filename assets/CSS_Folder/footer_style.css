@@ -1,0 +1,10 @@
+footer {
+  height: 1.5rem;
+  background-color: gray;
+}
+/*TODO: set the paragraph color*/
+footer > p {
+  color: white;
+  padding-left: 1rem;
+  font-size: 0.7rem;
+}

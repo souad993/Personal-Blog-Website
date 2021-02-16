@@ -1,0 +1,105 @@
+/*TODO: set the layout area of the page*/
+.author-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "top-container left-container"
+    " bottom-container left-container";
+  margin-left: 1.9rem;
+  margin-right: 1.9rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+.top-container {
+  grid-area: top-container;
+  padding: 1rem;
+  border-style: outset;
+  background-color: rgb(53, 52, 52);
+}
+.left-container {
+  grid-area: left-container;
+  border-style: outset;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+.bottom-container {
+  grid-area: bottom-container;
+  border-style: outset;
+}
+.top-container h4 {
+  color: gray;
+}
+/*TODO: set headers as an uppercase*/
+.top-container h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.top-container p {
+  color: white;
+}
+.top-container figcaption {
+  align-self: center;
+  font-size: 12px;
+  color: gray;
+  padding-left: 0.5rem;
+}
+/*TODO: set the image and Author's name as a row*/
+.author-avater {
+  display: flex;
+  flex-flow: row;
+  padding-top: 1rem;
+}
+/*TODO: set the avatar as a Circle*/
+.author-avater img {
+  border-radius: 100%;
+  width: 3rem;
+}
+.author-avater p {
+  padding-left: 1rem;
+  color: grey;
+}
+.left-container h2 {
+  padding-bottom: 1rem;
+}
+.left-container h3 {
+  color: rgb(165, 138, 138);
+}
+.post-info-container {
+  font-size: 1rem;
+  padding: 0.1rem;
+}
+/*TODO:set the postion of the button */
+.bottom-container button {
+  display: block;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+/*TODO: set headers as an uppercase*/
+.left-container h2,
+.bottom-container h2 {
+  text-transform: uppercase;
+  color: rgb(95, 94, 94);
+}
+
+.bottom-container nav {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.bottom-container h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/*TODO: set the color & font(style/size) of the button*/
+.bottom-container button {
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+  border-color: gray;
+  border-style: double;
+  font-size: 15px;
+}
